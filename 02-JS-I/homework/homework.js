@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
 
-return Str
+  return Str
 
 }
 
@@ -38,7 +38,7 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
 
-return x + y
+  return x + y
 
 }
 
@@ -46,7 +46,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
 
-return y - x
+  return y - x
 
 }
 
@@ -54,7 +54,7 @@ function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
 
-return x + y
+  return x + y
 
 }
 
@@ -62,7 +62,7 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
 
-return x / y 
+  return x / y 
 
 }
 
@@ -72,11 +72,11 @@ function sonIguales(x, y) {
   // Tu código:
 
 if (x === y) {
-return true;
+  return true;
 } 
 
 else {
-return false;
+  return false;
 }
 
 }
@@ -94,12 +94,12 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if(num < 90) {
-return true;
+if(num < 90) {
+  return true;
 }
 
 else  {
-return false;
+ return false;
 }
 
 }
@@ -117,7 +117,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
 
-return x % y;
+  return x % y;
 
 }
 
@@ -127,10 +127,10 @@ function esPar(num) {
   // Tu código:
 
 if (num % 2 === 0) 
-return true 
+  return true 
 
 else {
-return false;
+  return false;
   }
 }
 
@@ -140,10 +140,10 @@ function esImpar(num) {
   // Tu código:
   
 if (num % 2 ===1 ){
-return true;
+  return true;
 } 
 else {
-return false;
+  return false;
 }
 
 }
@@ -153,7 +153,7 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   
-return math.pow (num, 2); 
+  return math.pow (num, 2); 
   
 }
 
@@ -161,32 +161,34 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   
-return num * num * num; 
+  return num * num * num; 
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   
-return math.pow (num, exponent);
+  return math.pow (num, exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   
-return math.pow (num, exponent);
+  return math.pow (num, exponent);
 
-  function redondearNumero(num) {
+}
+
+function redondearNumero(num) {
   
-return math.round (num);
+return math.round(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
-return ceil.round (num);
+return ceil.round(num);
 }
 
 function numeroRandom() {
