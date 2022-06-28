@@ -106,7 +106,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  return num > 50;  
+  return num > 50;
 
 }
 
