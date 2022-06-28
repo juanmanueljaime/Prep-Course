@@ -176,7 +176,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
-return Math.ceil(num);
+return Math.random(num);
 }
 
 function numeroRandom() {
@@ -197,10 +197,10 @@ if(numero === 0) {
 return false;
 } 
 else if (numero > 0) {
-return "es positivo"; 
+return "Es positivo"; 
 }
 else {
-return "es negativo";
+return "Es negativo";
 }
 
 }
