@@ -46,7 +46,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
 
-  return y - x
+  return y - x;
 
 }
 
@@ -62,7 +62,7 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
 
-  return x / y 
+  return x / y; 
 
 }
 
