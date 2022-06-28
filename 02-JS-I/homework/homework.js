@@ -164,7 +164,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   
-  return math.pow(num, exponent);
+  return Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
@@ -176,7 +176,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
-return ceil.round(num);
+return Math.ceil(num);
 }
 
 function numeroRandom() {
