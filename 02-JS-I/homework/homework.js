@@ -176,14 +176,14 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
-return Math.random(num);
+return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
 
-  return numero.random()
+  return Math.random()
 
 }
 
@@ -219,7 +219,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
 
-var combinado = nombre + ''+ apellido;
+var combinado = nombre + ' '+ apellido;
 return combinado;
 
 }
@@ -229,7 +229,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
 
-return 'hola ' + nombre + '!';
+return 'Hola ' + Mombre + '!';
 
 }
 
@@ -278,14 +278,14 @@ function esVocal(letra){
   //Escribe tu código aquí
 
 if(letra.lenght > 1){
-return "dato incorrecto"
+return "Dato incorrecto"
 }
 
 if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-return "es vocal"
+return "Es vocal"
 }
 
-return "dato incorrecto"
+return "Dato incorrecto"
 
 }
 
