@@ -206,11 +206,12 @@ function esPositivo(numero) {
 if(numero === 0) {
 return false;
 } 
-else if (numero > 0);
+else if (numero > 0);{
 return "es positivo"; 
-
-else (numero < 0);
+}
+else {
 return "es negativo";
+}
 
 }
 
