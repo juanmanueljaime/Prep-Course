@@ -171,17 +171,9 @@ function elevar(num, exponent) {
   return math.pow (num, exponent);
 }
 
-function redondearNumero(num) {
-  // Redondea "num" al entero más próximo y devuélvelo
-  // Tu código:
-  
-  return math.pow (num, exponent);
+function redondearNumero(...args: [num: any]) {
 
-}
-
-function redondearNumero(num) {
-  
-return math.round(num);
+  return math.round(num);
 }
 
 function redondearHaciaArriba(num) {
