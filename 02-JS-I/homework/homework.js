@@ -229,7 +229,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
 
-return 'Hola ' + Mombre + '!';
+return 'Hola ' + nombre + '!';
 
 }
 
