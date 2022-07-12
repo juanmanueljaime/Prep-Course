@@ -87,7 +87,7 @@ switch(color){
     return "This is red";
   case "green":
     return "This is green";
-  case !"orange":
+  case "orange":
     return "This is orange";
   default: 
    return "Color not found";
