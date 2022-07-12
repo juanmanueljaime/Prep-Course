@@ -33,7 +33,7 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
 if(status === 1) {
   
-  return "online";
+  return "Online";
 } 
 
 else if(status = 2) {
@@ -82,11 +82,11 @@ function colors(color) {
   //Usar el statement Switch.
 
 switch(color){
-  case blue:
+  case "blue":
     return "This is blue"
-  case green:
+  case "green":
     return "This is green"
-  case orange:
+  case !"orange":
     return "This is orange"
   default: 
    return "Color not found"
@@ -130,6 +130,7 @@ if(numero % 15 === 0) return "fizzbuzz";
 if(numero % 3 === 0) return "fizz";
 if(numero % 5 === 0) return "buzz";
 
+return numero;
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -139,16 +140,16 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-if ( num1 < 0 || num2 < 0 || num3 < 0 ){
+if (num1 < 0 || num2 < 0 || num3 < 0 ) {
   return "Hay negativos";
 }
-  else if( num1 === 0 || num2 === 0 || num3 === 0){  
+  else if(num1 === 0 || num2 === 0 || num3 === 0){  
     return "Error";
 }
-  else if( num1 > 0 && num1 > num2 && num1 > num3 ){
-    return "Numero 1 es mayor y positivo";
+  else if(num1 > 0 && num1 > num2 && num1 > num3 ){
+    return "Número 1 es mayor y positivo";
 }
-  else if( num3 > num1 && num3 > num2){
+  else if(num3 > num1 && num3 > num2){
     return num3 + 1;
   }
   else {
@@ -163,8 +164,8 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-if (num < 2) return false;
-if (num === 2) return true;
+if(numero < 2) return false;
+if(numero === 2) return true;
 for(var i = 2; i < numero; i++) {
   if(numero % i === 0) {
     return false;
@@ -180,7 +181,7 @@ function esVerdadero(valor){
 if(valor === true){
   return "Soy verdadero"
 }
-return "false"
+return "falso"
 }
 
 function tablaDelSeis(){
@@ -189,7 +190,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   let arrayTablaDel6 = []
   for (let i = 0; i < 11; i++){
-    arrayTablaDel6.push (6 *1)
+    arrayTablaDel6.push (6 * 1)
   }
   return arrayTablaDel6
 }
