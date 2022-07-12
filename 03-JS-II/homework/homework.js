@@ -65,7 +65,7 @@ if(idioma === 'aleman') {
   return "Ni Hao!";
 }
   
-  else(idioma === 'ingles'){
+  else if(idioma === 'ingles'){
   return "Hello!";
 }
   else {
