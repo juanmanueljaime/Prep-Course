@@ -36,13 +36,12 @@ if(status === 1) {
   return "Online";
 } 
 
-else if(status = 2) {
+else if(status === 2) {
     
   return "Away";
   }
 
 else{ 
-
   return "Offline";
 }
 }
@@ -83,13 +82,15 @@ function colors(color) {
 
 switch(color){
   case "blue":
-    return "This is blue"
+    return "This is blue";
+  case "red":
+    return "This is red";
   case "green":
-    return "This is green"
+    return "This is green";
   case !"orange":
-    return "This is orange"
+    return "This is orange";
   default: 
-   return "Color not found"
+   return "Color not found";
 
 }
 }
@@ -181,7 +182,7 @@ function esVerdadero(valor){
 if(valor === true){
   return "Soy verdadero"
 }
-return "falso"
+return "Soy falso"
 }
 
 function tablaDelSeis(){
